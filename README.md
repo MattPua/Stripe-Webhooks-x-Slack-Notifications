@@ -11,6 +11,10 @@ Forward any Stripe webhook event to Slack with flexible filtering. Deploys easil
 <img width="1301" height="838" alt="image" src="https://github.com/user-attachments/assets/00478ac2-12f6-4ef9-b2da-c28629d7500c" />
 
 
+## Irrelevant Background
+
+I've been using the Stripe integration for Slack to forward events from Stripe to Slack. However, to my unfortunate dismay, only certain events are actually forwarded to Slack, which meant I missed some pretty critical pieces of information. I wanted an alternative, and with GPT5 coming out, I wanted to see if how far a one-shot prompt could take it. All things considered, it did pretty much exactly what I needed.
+
 
 ## How it works
 

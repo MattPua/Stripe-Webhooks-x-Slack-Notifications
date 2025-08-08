@@ -6,6 +6,12 @@ Forward any Stripe webhook event to Slack with flexible filtering. Deploys easil
 - Filter with allowlist/denylist glob patterns (e.g. `invoice.*`)
 - Works with Slack Incoming Webhooks (single channel)
 
+## Examples
+<img width="1195" height="634" alt="image" src="https://github.com/user-attachments/assets/35bfc9f9-96d3-4fff-8daf-ede6e436bed7" />
+<img width="1301" height="838" alt="image" src="https://github.com/user-attachments/assets/00478ac2-12f6-4ef9-b2da-c28629d7500c" />
+
+
+
 ## How it works
 
 Stripe sends webhooks to `/api/stripe-webhook`. The endpoint verifies the `Stripe-Signature` header with your signing secret, optionally filters the event, formats a Slack message using Block Kit, and posts the notification to Slack (via Incoming Webhook).
